@@ -2,7 +2,8 @@
 
 This flask project template is based in a MVC architecture.
 
-The main idea was mantain this the more simple as possible, so feel free to add the dependecies you consider are the best fit for your needs
+The main idea was maintaining this as simple as possible, so feel free to add the dependencies you consider are the best fit for your needs
+
 
 ## How to use
 
