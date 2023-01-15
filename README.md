@@ -10,8 +10,8 @@ The main idea was maintaining this as simple as possible, so feel free to add th
 You will need to install [docker](https://www.docker.com/) if you want to use all the commands in the Makefile.
 
  1. Clone the repo, copy the files or just click [here](https://github.com/isaac152/Flask_base_template/generate)
- 2. Rename with your project name
- 3. Run `cp -n .env.example .env` to genearte the .env file
+ 2. Rename with your project's name
+ 3. Run `cp -n .env.example .env` to generate the .env file
  4. Change the .env file and specially the `APP_NAME`
  5. Run `python -m venv env` to create the virtual enviroment
  6. Run `source env/bin/activate` to enter into the virtual enviroment
