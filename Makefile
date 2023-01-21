@@ -13,7 +13,7 @@ cleanup:
 	docker rm -f ${APP_NAME} 
 
 test:
-	docker run --rm ${APP_NAME} sh -c 'python -m pytest --exitfirst'
+	docker run --rm -v '$(shell pwd):/app' ${APP_NAME} sh -c 'python -m pytest --exitfirst'
 
 create_blueprint:
 	cp -r ./app/core/ ./app/${app_name} && find ./app/${app_name} -type f -exec sed -i 's/main/${app_name}/g' {} + && echo "\tapp/${app_name}/__init__.py:E402:F401" >> .flake8
